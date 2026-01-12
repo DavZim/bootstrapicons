@@ -1,6 +1,7 @@
 # Bootstrap Icons for Typst
 
-The `bootstrapicons` is a collection of icons provided by the [Bootstrap project](https://getbootstrap.com/) with over 2000 icons.
+The `bootstrapicons` package is a bundle of Bootstrap icons.
+Bootstrap icons is a collection of icons provided by the [Bootstrap project](https://getbootstrap.com/) with over 2000 icons.
 
 A full list of icons is provided at [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/).
 This typst package uses version `v1.13.1` of the Bootstrap icons.
