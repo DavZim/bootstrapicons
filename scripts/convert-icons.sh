@@ -3,7 +3,7 @@
 # Script to convert SVG files in the 'raw-icons' directory into a single typst file
 # execute as ./scripts/convert-icons.sh
 cd ../raw-icons/
-output_file="../bs_icons.typ"
+output_file="../bs-icons.typ"
 echo "#let svg_map = (" > "$output_file"
 count=0
 for svg_file in *.svg; do
