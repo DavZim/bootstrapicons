@@ -35,7 +35,7 @@ Find the source of this project at #gh_link("https://github.com/DavZim/bootstrap
 
 ```
 
-Which will generate this [PDF](https://github.com/DavZim/bootstrapicons/examples/mwe.pdf).
+Which will generate this [PDF](https://github.com/DavZim/bootstrapicons/blob/28a1c100603968a098f8e42ec6550b0a8a3fae43/examples/mwe.pdf).
 
 ![Screenshot of the PDF with icons](examples/mwe_screenshot.png)
 
