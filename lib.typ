@@ -1,11 +1,12 @@
 #import "bs_icons.typ": svg_map
 
-/// Function to create a Boostrap icon
+/// Function to create a Bootstrap icon
 /// 
-/// - file (str): The file to load
-/// - height (height unit): the target height
-/// - color (typst color): the target color
-#let bsicon(name, height: 0.66em, color: "black", baseline: 0%,..args) = {
+/// - name (str): The icon name to load
+/// - height (length): The target height
+/// - color (color): The target color
+/// - baseline (length): Baseline offset
+#let bsicon(name, height: 0.66em, color: black, baseline: 0%, ..args) = {
   if name not in svg_map {
     panic("Icon '" + name + "' not found. Visit https://icons.getbootstrap.com/ for all available icon names.")
   }
